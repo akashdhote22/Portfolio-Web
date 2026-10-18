@@ -1,0 +1,12 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Sab log projects padh sakte hain
+    match /projects/{id} {
+      allow read: if true;
+      // Sirf aap (admin) likh sakte ho. Neeche apna email daalo.
+      allow write: if request.auth != null
+                   && request.auth.token.email == "akashdhote26346@gmail.com";
+    }
+  }
+}

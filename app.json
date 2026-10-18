@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Akash Portfolio",
+    "slug": "akash-portfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#08090c",
+    "web": { "bundler": "metro", "output": "single", "favicon": "./assets/favicon.png" },
+    "android": { "package": "com.akash.portfolio" },
+    "ios": { "bundleIdentifier": "com.akash.portfolio" }
+  }
+}
