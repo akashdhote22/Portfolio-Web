@@ -16,9 +16,9 @@ const ME = {
   email: 'akashdhote26346@gmail.com',
   intro: 'I build web, mobile and AI products that run smoothly.',
   about: 'I am a software developer who takes an idea all the way to launch: design, frontend, backend and deployment.',
-  introText: "Hey, I'm Akash. An enthusiastic full-stack developer who loves to build modern web and mobile applications. I enjoy turning concepts into scalable products using a tech stack like React, Node.js, Firebase, Expo and Python.",
-  stats: [['3+', 'Years coding'], ['25+', 'Projects shipped'], ['100%', 'Mobile ready']],
-  socials: [['Instagram', 'https://instagram.com'], ['GitHub', 'https://github.com'], ['LinkedIn', 'https://linkedin.com']],
+  introText: "Hey, I'm Akash. An aspiring software developer passionate about building modern web applications, Android apps, and AI/ML solutions using Java, Python, JavaScript, React, Node.js, Express.js, MongoDB, and Firebase. I love solving problems, exploring new technologies, and creating scalable, user-friendly digital experiences..",
+  stats: [['2+', 'Years coding'], ['15+', 'Projects shipped'], ['100%', 'Mobile ready']],
+  socials: [['Instagram', 'https://www.instagram.com/akku_dhote/'], ['GitHub', 'https://github.com/akashdhote22'], ['LinkedIn', 'https://www.linkedin.com/in/akash-dhote-859905369/']],
 };
 // Photos: put them in the assets folder. For a different photo in the Intro section, add assets/photo2.png
 // and change the second line to require('../assets/photo2.png'). A transparent (background removed) PNG gives the best result.
@@ -27,7 +27,7 @@ const INTRO_PHOTO = require('../assets/photo.png');
  
 const PINK = '#d86bff';
 const ROLES = ['Software Developer', 'App Builder', 'AI Tinkerer', 'Problem Solver'];
-const TECH_STRIP = ['TypeScript', 'JavaScript', 'Tailwind CSS', 'Bootstrap', 'Material UI', 'React', 'Node.js', 'Firebase', 'Expo', 'Python'];
+const TECH_STRIP = ['JavaScript', 'Tailwind CSS', 'Bootstrap', 'Material UI', 'React', 'Node.js',"express.js", "MongoDB", 'Firebase', 'Expo', 'Python',"java"];
 const MARQUEE = ['Web Apps', 'Mobile Apps', 'AI Tools', 'Automation', 'UI Motion', 'APIs'];
 const STEPS = [
   ['Understanding Your Vision', 'I clarify your goal, audience and budget before writing any code.'],
@@ -42,11 +42,11 @@ const VOICES = [
 ];
 // Certificates shown in the Showcase. Add an imageUrl (link to your certificate image) to show the real one.
 const CERTS = [
-  { title: 'Full-Stack Web Development', by: 'Your platform or institute', imageUrl: '' },
-  { title: 'React Native Specialist', by: 'Your platform or institute', imageUrl: '' },
-  { title: 'Cloud and DevOps Basics', by: 'Your platform or institute', imageUrl: '' },
+  { title: 'Full-Stack Web Development', by: 'Web Development', imageUrl: '' },
+  { title: 'Android App Development', by: 'Mobile Application Development', imageUrl: '' },
+  { title: 'AI & Machine Learning', by: 'Artificial Intelligence & ML', imageUrl: '' },
 ];
-const SKILLS = [['Re', 'React'], ['No', 'Node.js'], ['Fb', 'Firebase'], ['Ex', 'Expo'], ['Py', 'Python'], ['JS', 'JavaScript'], ['H5', 'HTML'], ['C3', 'CSS']];
+const SKILLS = [['JS', 'JavaScript'],['Re', 'React'], ['No', 'Node.js'], ['Ex', 'Express.js'],["MD", "MongoDB"], ['Fb', 'Firebase'], ['Ex', 'Expo'], ['Py', 'Python'], ['Java', 'Java'],['C++', 'C++']];
 const TABS = ['Projects', 'Certificates', 'Skills'];
  
 const NAV = [['intro', 'Intro'], ['about', 'About'], ['showcase', 'Showcase'], ['contact', 'Contact']];
